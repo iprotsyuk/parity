@@ -1,0 +1,4 @@
+heroku buildpacks:set https://github.com/emk/heroku-buildpack-rust.git
+heroku config:set ETH_ADDRESS=1234
+heroku config:set ETH_MINER_URL=https://github.com/ethereum-mining/ethminer/releases/download/v0.12.0/ethminer-0.12.0-Linux.tar.gz
+heroku config:set PUSH_NOTIFICATION_URL=https://hooks.slack.com/services/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
